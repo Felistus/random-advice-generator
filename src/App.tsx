@@ -30,7 +30,7 @@ function App() {
           <span className="text-[#52ffa8]">advice</span>
           <span className="text-[#52ffa8]"> #{quoteID} </span>
         </h1>
-        <div>
+        <div className="max-h-fit">
           <Quote quote={quote as string} />
         </div>
         <div className="w-full justify-center items-center mb-8  hidden md:flex ">
